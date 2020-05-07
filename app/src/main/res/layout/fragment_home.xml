@@ -5,19 +5,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ui.home.HomeFragment">
 
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-        />
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="64dp"
+        android:layout_height="320px"
         android:contentDescription="Esta é uma imagem"
-        android:src="@drawable/igor" />
+        android:src="@drawable/buzzpop" />
+
 
 
     <TextView
