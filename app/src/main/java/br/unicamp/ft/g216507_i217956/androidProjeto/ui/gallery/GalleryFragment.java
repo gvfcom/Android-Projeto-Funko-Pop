@@ -15,21 +15,49 @@ import androidx.lifecycle.ViewModelProviders;
 import br.unicamp.ft.g216507_i217956.androidProjeto.R;
 
 public class GalleryFragment extends Fragment {
-
-    private GalleryViewModel galleryViewModel;
+    private TextView texto2;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        galleryViewModel =
-                ViewModelProviders.of(this).get(GalleryViewModel.class);
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
-        final TextView textView = root.findViewById(R.id.text_gallery);
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
+
+        texto2 = root.findViewById(R.id.tela2);
+        Bundle bundle = getArguments();
+
+        texto2.setText("Olá, " + bundle.getString("nome"));
+
+
+
+
+        if(bundle.getBoolean("cb1")==true){
+
+
+
+        }
+        if(bundle.getBoolean("cb2")==true){
+
+
+
+        }
+        if(bundle.getBoolean("cb3")==true){
+
+
+
+        }
+        if(bundle.getBoolean("cb4")==true){
+
+
+
+        }
+        if(bundle.getBoolean("cb5")==true){
+
+
+
+        }
+
+
+
         return root;
+
     }
 }
