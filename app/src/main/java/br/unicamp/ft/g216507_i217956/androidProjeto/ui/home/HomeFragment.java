@@ -28,21 +28,11 @@ public class HomeFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-
         View root = inflater.inflate(R.layout.fragment_home, container, false);
 
         checkbox1 = root.findViewById(R.id.checkbox_1);
         checkbox2 = root.findViewById(R.id.checkbox_2);
 
-
-
-
-
         return root;
     }
-
-
-
-
-
 }
