@@ -14,15 +14,20 @@
     <string name="home_second">Home Second</string>
     <string name="Bemvindo">Bem Vindo</string>
     <string name="Produto">Abaixo temos alguns produtos:</string>
-    <string name="checkbox1">Marvel</string>
     <string name="radiobutton1">ola</string>
     <string name="radiobutton2">ola1</string>
+
+    <string name="checkbox1">Marvel</string>
     <string name="checkbox2">Dc</string>
-    <string name="enviar">Enviar</string>
     <string name="checkbox3">Disney</string>
     <string name="checkbox4">Game of Thrones</string>
     <string name="checkbox5">Harry Potter</string>
+
+    <string name="enviar">Enviar</string>
     <string name="Pesquisa">Qual o tipo de funko que você mais procura?</string>
     <string name="nome">Nome:</string>
     <string name="edt_txt">Escreva seu nome</string>
+
+    <string name="essesProdutos">Esses são os produtos</string>
+    <string name="ola">Olá</string>
 </resources>

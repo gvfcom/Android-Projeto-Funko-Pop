@@ -23,16 +23,13 @@ import br.unicamp.ft.g216507_i217956.androidProjeto.R;
 
 
 public class HomeFragment extends Fragment {
-
-
     private HomeViewModel homeViewModel;
-    private CheckBox checkbox1, checkbox2, checkbox3, checkbox4,checkbox5;
+    private CheckBox checkbox1, checkbox2, checkbox3, checkbox4, checkbox5;
     private Button button;
     private EditText nome;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-
 
         View root = inflater.inflate(R.layout.fragment_home, container, false);
 
@@ -48,60 +45,28 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Bundle bundle= new Bundle();
-                boolean cb1 = false;
-                boolean cb2 = false;
-                boolean cb3 = false;
-                boolean cb4 = false;
-                boolean cb5 = false;
-                if(checkbox1.isChecked()){
-                    cb1=true;
-                }
-                if(checkbox2.isChecked()){
-                    cb2=true;
-                }
-                if(checkbox3.isChecked()){
-                    cb3=true;
-                }
-                if(checkbox4.isChecked()){
-                    cb4=true;
-                }
-                if(checkbox5.isChecked()){
-                    cb5=true;
-                }
+
                 String usuario = nome.getText().toString();
+                boolean cb1 = checkbox1.isChecked();
+                boolean cb2 = checkbox2.isChecked();
+                boolean cb3 = checkbox3.isChecked();
+                boolean cb4 = checkbox4.isChecked();
+                boolean cb5 = checkbox5.isChecked();
+
+                bundle.putString("nome",usuario);
                 bundle.putBoolean("cb1",cb1);
                 bundle.putBoolean("cb2",cb2);
                 bundle.putBoolean("cb3",cb3);
                 bundle.putBoolean("cb4",cb4);
                 bundle.putBoolean("cb5",cb5);
-                bundle.putString("nome",usuario);
 
                 NavController navController = NavHostFragment.findNavController(HomeFragment.this);
                 navController.navigate(R.id.nav_gallery, bundle);
-
-
-
             }
 
 
         });
 
-
-
-
-
-
-
-
-
-
-
-
         return root;
     }
-
-
-
-
-
 }
