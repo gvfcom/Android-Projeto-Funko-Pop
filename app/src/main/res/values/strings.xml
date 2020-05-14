@@ -30,4 +30,23 @@
 
     <string name="essesProdutos">Esses são os produtos</string>
     <string name="ola">Olá</string>
+    <string name="imagem_do_funko">Imagem do Funko</string>
+
+    <array name="fotos">
+        <item>@drawable/marvel_tonystark</item>
+        <item>@drawable/dc_flash</item>
+        <item>@drawable/disney_woody</item>
+        <item>@drawable/got_jonsnow</item>
+        <item>@drawable/hp_harrypotter</item>
+        <item>@drawable/placeholder</item>
+    </array>
+
+    <string-array name="nomes">
+        <item>Marvel,Tony Stark</item>
+        <item>DC,The Flash</item>
+        <item>Disney,Woody</item>
+        <item>Game Of Thrones,Jon Snow</item>
+        <item>Harry Potter,Harry Potter</item>
+        <item>placeholder</item>
+    </string-array>
 </resources>
