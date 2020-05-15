@@ -37,9 +37,11 @@ public class GalleryFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
-
+        View root2 = inflater.inflate(R.layout.erro_layout, container, false);
         Bundle bundle = getArguments();
-
+        if(bundle==null){
+            return root2;
+        }
         Boolean verificacao[] = { bundle.getBoolean("cb1"), bundle.getBoolean("cb2"), bundle.getBoolean("cb3"), bundle.getBoolean("cb4"), bundle.getBoolean("cb5") };
 
         textoBoasVindas = root.findViewById(R.id.tela2);

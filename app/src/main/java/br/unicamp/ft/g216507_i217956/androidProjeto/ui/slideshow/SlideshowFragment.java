@@ -25,7 +25,13 @@ public class SlideshowFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_slideshow, container, false);
-        Bundle bundle = getArguments();
+        View root2 = inflater.inflate(R.layout.erro_layout, container, false);
+
+                Bundle bundle = getArguments();
+        if(bundle==null){
+
+            return root2;
+        }
         marca=bundle.getString("marca");
         foto= root.findViewById(R.id.image_view);
         textoBoasVindas = root.findViewById(R.id.text_slideshow);

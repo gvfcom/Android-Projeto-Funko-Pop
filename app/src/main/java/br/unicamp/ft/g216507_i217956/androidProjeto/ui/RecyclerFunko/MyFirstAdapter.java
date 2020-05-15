@@ -51,8 +51,6 @@ public class MyFirstAdapter extends RecyclerView.Adapter {
         holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
                @Override
                public boolean onLongClick(View v) {
-                   funkos.remove(position);
-                   notifyDataSetChanged();
                    return false;
                }
            }

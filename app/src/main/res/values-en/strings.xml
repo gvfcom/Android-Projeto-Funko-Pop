@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">androidProjeto</string>
+    <string name="app_name">androidProject</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -7,15 +8,15 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Loja de Miniaturas</string>
-    <string name="menu_gallery">Produtos</string>
-    <string name="menu_slideshow">Compra</string>
+    <string name="menu_home">Thumbnail Store</string>
+    <string name="menu_gallery">Products</string>
+    <string name="menu_slideshow">Purchase</string>
 
     <string name="home_second">Home Second</string>
-    <string name="Bemvindo">Bem Vindo</string>
-    <string name="Produto">Escolha o tipo de produto que procura:</string>
-    <string name="radiobutton1">Boleto</string>
-    <string name="radiobutton2">Cartão</string>
+    <string name="Bemvindo">Welcome</string>
+    <string name="Produto">Choose the type of product you are looking for:</string>
+    <string name="radiobutton1">Billet</string>
+    <string name="radiobutton2">Card</string>
 
     <string name="checkbox1">Marvel</string>
     <string name="checkbox2">Dc</string>
@@ -23,17 +24,17 @@
     <string name="checkbox4">Game of Thrones</string>
     <string name="checkbox5">Harry Potter</string>
 
-    <string name="enviar">Enviar</string>
-    <string name="Pesquisa">Qual o tipo de funko que você mais procura?</string>
-    <string name="nome">Nome:</string>
-    <string name="edt_txt">Escreva seu nome</string>
+    <string name="enviar">Submit</string>
+    <string name="Pesquisa">What type of funko are you looking for the most?</string>
+    <string name="nome">Name:</string>
+    <string name="edt_txt">Write your name</string>
 
-    <string name="essesProdutos">Esses são os produtos</string>
-    <string name="ola">Olá</string>
-    <string name="imagem_do_funko">Imagem do Funko</string>
-    <string name="compra">Abaixo temos o preço:</string>
-    <string name="comprar">Comprar</string>
-    <string name="Erro">Volte para a pagina inicial</string>
+    <string name="essesProdutos">These are the products</string>
+    <string name="ola">Hello</string>
+    <string name="imagem_do_funko">Funko image</string>
+    <string name="compra">Below we have the price:</string>
+    <string name="comprar">Purchase</string>
+    <string name="Erro">Return to the home page</string>
 
     <array name="fotos">
         <item>@drawable/marvel_tonystark</item>
@@ -53,16 +54,20 @@
     </string-array>
 
     <string-array name="preco">
-        <item>R$:100,00</item>
-        <item>R$:80,00</item>
-        <item>R$:75,00</item>
-        <item>R$:80,00</item>
-        <item>R$:100,00</item>
+        <item>US$:20,00</item>
+        <item>US$:16,00</item>
+        <item>US$:15,00</item>
+        <item>US$:16,00</item>
+        <item>US$:20,00</item>
     </string-array>
 
     <string-array name="spinner_values">
-        <item>PAC (7-10 dias)</item>
-        <item>Sedex (3-4 dias)</item>
-        <item>Retirada</item>
+        <item>PAC (7-10 days)</item>
+        <item>Sedex (3-4 days)</item>
+        <item>Withdrawal</item>
     </string-array>
+
+
+
+
 </resources>
