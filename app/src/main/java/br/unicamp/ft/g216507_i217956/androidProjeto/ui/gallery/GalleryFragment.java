@@ -16,6 +16,8 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
+import androidx.navigation.NavController;
+import androidx.navigation.fragment.NavHostFragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -25,6 +27,7 @@ import java.util.Arrays;
 import br.unicamp.ft.g216507_i217956.androidProjeto.R;
 import br.unicamp.ft.g216507_i217956.androidProjeto.ui.RecyclerFunko.Funko;
 import br.unicamp.ft.g216507_i217956.androidProjeto.ui.RecyclerFunko.MyFirstAdapter;
+import br.unicamp.ft.g216507_i217956.androidProjeto.ui.home.HomeFragment;
 
 public class GalleryFragment extends Fragment {
     private TextView textoBoasVindas, texto1, texto2, texto3, texto4, texto5;
@@ -42,6 +45,7 @@ public class GalleryFragment extends Fragment {
         textoBoasVindas = root.findViewById(R.id.tela2);
         textoBoasVindas.setText(getResources().getString(R.string.ola) + ", " + bundle.getString("nome"));
 
+
         RecyclerView recyclerView = root.findViewById(R.id.recyclerview);
 
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
@@ -52,6 +56,10 @@ public class GalleryFragment extends Fragment {
         MyFirstAdapter.MyFirstAdapterOnItemClickListener listener = new MyFirstAdapter.MyFirstAdapterOnItemClickListener() {
             @Override
             public void myFirstAdapterOnItemClick(String nome) {
+                Bundle bundle= new Bundle();
+                bundle.putString("marca",nome);
+                NavController navController = NavHostFragment.findNavController(GalleryFragment.this);
+                navController.navigate(R.id.nav_slideshow, bundle);
                 Toast.makeText(getContext(),nome,Toast.LENGTH_SHORT).show();
             }
         };

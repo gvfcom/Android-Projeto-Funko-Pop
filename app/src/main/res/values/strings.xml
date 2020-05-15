@@ -14,8 +14,8 @@
     <string name="home_second">Home Second</string>
     <string name="Bemvindo">Bem Vindo</string>
     <string name="Produto">Abaixo temos alguns produtos:</string>
-    <string name="radiobutton1">ola</string>
-    <string name="radiobutton2">ola1</string>
+    <string name="radiobutton1">Masculino</string>
+    <string name="radiobutton2">Feminino</string>
 
     <string name="checkbox1">Marvel</string>
     <string name="checkbox2">Dc</string>
@@ -31,6 +31,8 @@
     <string name="essesProdutos">Esses são os produtos</string>
     <string name="ola">Olá</string>
     <string name="imagem_do_funko">Imagem do Funko</string>
+    <string name="compra">Abaixo temos o preço:</string>
+    <string name="comprar">Comprar</string>
 
     <array name="fotos">
         <item>@drawable/marvel_tonystark</item>
@@ -38,7 +40,6 @@
         <item>@drawable/disney_woody</item>
         <item>@drawable/got_jonsnow</item>
         <item>@drawable/hp_harrypotter</item>
-        <item>@drawable/placeholder</item>
     </array>
 
     <string-array name="nomes">
@@ -47,6 +48,14 @@
         <item>Disney,Woody</item>
         <item>Game Of Thrones,Jon Snow</item>
         <item>Harry Potter,Harry Potter</item>
-        <item>placeholder</item>
+
+    </string-array>
+
+    <string-array name="preco">
+        <item>R$:100,00</item>
+        <item>R$:80,00</item>
+        <item>R$:75,00</item>
+        <item>R$:80,00</item>
+        <item>R$:100,00</item>
     </string-array>
 </resources>

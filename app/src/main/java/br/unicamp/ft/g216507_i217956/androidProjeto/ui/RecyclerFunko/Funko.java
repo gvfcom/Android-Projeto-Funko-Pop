@@ -7,6 +7,7 @@ import android.graphics.drawable.Drawable;
 import android.util.Log;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import br.unicamp.ft.g216507_i217956.androidProjeto.R;
 
@@ -41,27 +42,22 @@ public class Funko {
 
             Log.i("myTag", "tamanhoReal: " + tamanhoReal);
 
-            Funko[] funkos = new Funko[tamanhoReal];
+
+            List<Funko> funkosaux= new ArrayList<Funko>();
 
             for (int i = 0; i < tamanhoReal; i++){
                 if(verificacao[i] == true) {
                     String[] info = infos[i].split(",");
-                    funkos[i] = new Funko(
-                            info[0],
+                    funkosaux.add(new Funko(info[0],
                             info[1],
-                            fotos.getResourceId(i, 0)
-                    );
+                            fotos.getResourceId(i, 0)));
                 }
-                else {
-                    funkos[i] = new Funko(
-                            "",
-                            "",
-                            fotos.getResourceId(5, 0)
-                    );
-                }
-            }
 
-            //fotos.recycle();
+
+            }
+                Funko[] funkos = funkosaux.toArray(new Funko[funkosaux.size()]);
+
+            fotos.recycle();
             return funkos;
         }
 

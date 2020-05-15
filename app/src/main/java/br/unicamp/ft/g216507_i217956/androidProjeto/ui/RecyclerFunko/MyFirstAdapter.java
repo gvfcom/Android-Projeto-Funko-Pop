@@ -97,10 +97,13 @@ public class MyFirstAdapter extends RecyclerView.Adapter {
         public void bind(Funko funko){
             String marca = funko.getMarca();
             String nome = funko.getNome();
-            imageView.setImageResource(funko.getFoto());
 
+
+            imageView.setImageResource(funko.getFoto());
             textView.setText("Marca: " + marca);
             textView.append(" \n" + "Nome: " + nome);
+
+
             imageView.setPaddingRelative(0,15,15,0);
 
             /*switch (funko.getColor()){

@@ -4,9 +4,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.gallery.GalleryFragment">
+    tools:context=".ui.gallery.GalleryFragment"
+    >
 
     <TextView
         android:id="@+id/tela2"
@@ -23,78 +24,5 @@
         android:paddingBottom="10dp"
         android:paddingEnd="10dp"/>
 
-    <TextView
-        android:id="@+id/texto1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="start"
-        android:textSize="15dp"
-        />
-    <ImageView
-        android:id="@+id/imagem1"
-        android:layout_width="match_parent"
-        android:layout_height="0px"
-        android:contentDescription="Esta é uma imagem"
-        />
 
-    <TextView
-        android:id="@+id/texto2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="start"
-        android:textSize="15dp"
-        />
-    <ImageView
-        android:id="@+id/imagem2"
-        android:layout_width="match_parent"
-        android:layout_height="0px"
-        android:contentDescription="Esta é uma imagem"
-        />
-
-    <TextView
-        android:id="@+id/texto3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="start"
-        android:textSize="15dp"
-        />
-    <ImageView
-        android:id="@+id/imagem3"
-        android:layout_width="match_parent"
-        android:layout_height="0px"
-        android:contentDescription="Esta é uma imagem"
-        />
-
-    <TextView
-        android:id="@+id/texto4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="start"
-        android:textSize="15dp"
-        />
-    <ImageView
-        android:id="@+id/imagem4"
-        android:layout_width="match_parent"
-        android:layout_height="0px"
-        android:contentDescription="Esta é uma imagem"
-        />
-
-    <TextView
-        android:id="@+id/texto5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="start"
-        android:textSize="15dp"
-        />
-    <ImageView
-        android:id="@+id/imagem5"
-        android:layout_width="match_parent"
-        android:layout_height="0px"
-        android:contentDescription="Esta é uma imagem"
-        />
 </LinearLayout>
