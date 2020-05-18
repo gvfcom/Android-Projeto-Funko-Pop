@@ -24,12 +24,6 @@
         android:layout_marginTop="1dp"
         android:layout_marginBottom="1dp"
         android:contentDescription="@string/imagem_do_funko"
-
         />
-
-
-
-
-
 
 </LinearLayout>
