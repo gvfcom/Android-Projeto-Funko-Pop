@@ -62,7 +62,6 @@ public class GalleryFragment extends Fragment {
                 bundle.putString("marca",nome);
                 NavController navController = NavHostFragment.findNavController(GalleryFragment.this);
                 navController.navigate(R.id.nav_slideshow, bundle);
-                Toast.makeText(getContext(),nome,Toast.LENGTH_SHORT).show();
             }
         };
         myFirstAdapter.setMyFirstAdapterOnItemClickListener(listener);
