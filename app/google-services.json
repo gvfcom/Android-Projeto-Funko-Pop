@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "595829462513",
-    "firebase_url": "https://androidprojeto-860f8.firebaseio.com",
-    "project_id": "androidprojeto-860f8",
-    "storage_bucket": "androidprojeto-860f8.appspot.com"
+    "project_number": "255145331019",
+    "firebase_url": "https://androidprojeto-91f98.firebaseio.com",
+    "project_id": "androidprojeto-91f98",
+    "storage_bucket": "androidprojeto-91f98.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:595829462513:android:7c448d2893d46d810de050",
+        "mobilesdk_app_id": "1:255145331019:android:adb627ef2da58dfc4480ce",
         "android_client_info": {
           "package_name": "br.unicamp.ft.g216507_i217956.androidProjeto"
         }
       },
       "oauth_client": [
         {
-          "client_id": "595829462513-uij9tgctdtg87g56n36qmbgh5ctbbnfq.apps.googleusercontent.com",
+          "client_id": "255145331019-gi12bgn47qvndkp0tg11sse4t5pvdvj7.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "br.unicamp.ft.g216507_i217956.androidProjeto",
@@ -23,20 +23,20 @@
           }
         },
         {
-          "client_id": "595829462513-8h1kna2sirsbj1qsfv3qtb7hug4j1jtr.apps.googleusercontent.com",
+          "client_id": "255145331019-0u81gfq914enq0ptalaffgg84u9dcj49.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCts1g9qFvgwNU_36_lLNmN2mWF1oASSDI"
+          "current_key": "AIzaSyAAGEBou-hbrHnsJqxpLNHjoC6jRgIPK6A"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "595829462513-8h1kna2sirsbj1qsfv3qtb7hug4j1jtr.apps.googleusercontent.com",
+              "client_id": "255145331019-0u81gfq914enq0ptalaffgg84u9dcj49.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
