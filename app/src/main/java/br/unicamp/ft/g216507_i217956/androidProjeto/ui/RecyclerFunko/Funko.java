@@ -3,7 +3,6 @@ package br.unicamp.ft.g216507_i217956.androidProjeto.ui.RecyclerFunko;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.graphics.drawable.Drawable;
 import android.util.Log;
 
 import com.google.firebase.database.DataSnapshot;
@@ -72,6 +71,7 @@ public class Funko {
             });
             /* --------------------------------------------- */
 
+
             for (int i = 0; i < tamanhoReal; i++){
                 if(verificacao[i] == true) {
                     String[] info = infos[i].split(",");
@@ -84,6 +84,7 @@ public class Funko {
             Funko[] funkos = funkosaux.toArray(new Funko[funkosaux.size()]);
 
             fotos.recycle();
+
             return funkos;
         }
 

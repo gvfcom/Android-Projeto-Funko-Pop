@@ -8,13 +8,20 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_home" />
+
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/firebaseListRecyclerViewFragment"
             android:icon="@drawable/ic_cart"
             android:title="@string/menu_gallery" />
+
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_money"
             android:title="@string/menu_slideshow" />
+
+        <item
+            android:id="@+id/minhasCompras"
+            android:icon="@drawable/ic_baseline_list_alt_24"
+            android:title="@string/minhas_compras" />
     </group>
 </menu>

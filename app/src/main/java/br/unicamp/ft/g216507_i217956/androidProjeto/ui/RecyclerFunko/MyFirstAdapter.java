@@ -1,18 +1,17 @@
 package br.unicamp.ft.g216507_i217956.androidProjeto.ui.RecyclerFunko;
 
-        import android.graphics.Color;
-        import android.view.LayoutInflater;
-        import android.view.View;
-        import android.view.ViewGroup;
-        import android.widget.ImageView;
-        import android.widget.TextView;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 
-        import androidx.annotation.NonNull;
-        import androidx.recyclerview.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
-        import java.util.ArrayList;
+import java.util.ArrayList;
 
-        import br.unicamp.ft.g216507_i217956.androidProjeto.R;
+import br.unicamp.ft.g216507_i217956.androidProjeto.R;
 
 public class MyFirstAdapter extends RecyclerView.Adapter {
 
@@ -79,9 +78,6 @@ public class MyFirstAdapter extends RecyclerView.Adapter {
     }
     /*  End */
 
-
-
-
     class MyFirstViewHolder extends RecyclerView.ViewHolder {
         private ImageView imageView;
         private TextView  textView;
@@ -103,6 +99,7 @@ public class MyFirstAdapter extends RecyclerView.Adapter {
 
 
             imageView.setPaddingRelative(0,15,15,0);
+
 
             /*switch (funko.getColor()){
                 case 0:textView.setTextColor(Color.parseColor("#1E90FF"));

@@ -15,7 +15,7 @@
     <string name="home_second">Home Second</string>
     <string name="Bemvindo">Welcome</string>
     <string name="Produto">Choose the type of product you are looking for:</string>
-    <string name="radiobutton1">Billet</string>
+    <string name="boleto">Billet</string>
     <string name="radiobutton2">Card</string>
 
     <string name="checkbox1">Marvel</string>

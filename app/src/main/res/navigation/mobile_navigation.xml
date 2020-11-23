@@ -40,4 +40,23 @@
         android:name="br.unicamp.ft.g216507_i217956.androidProjeto.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/firebaseListRecyclerViewFragment"
+        android:name="br.unicamp.ft.g216507_i217956.androidProjeto.FirebaseDatabase.FirebaseListRecyclerViewFragment"
+        android:label="Produtos" />
+    <fragment
+        android:id="@+id/pagamento"
+        android:name="br.unicamp.ft.g216507_i217956.androidProjeto.ui.Pagamento"
+        android:label="Pagamento"
+        tools:layout="@layout/fragment_pagamento" />
+    <fragment
+        android:id="@+id/finalizado"
+        android:name="br.unicamp.ft.g216507_i217956.androidProjeto.ui.Finalizado"
+        android:label="Compra Finalizada"
+        tools:layout="@layout/fragment_finalizado" />
+    <fragment
+        android:id="@+id/minhasCompras"
+        android:name="br.unicamp.ft.g216507_i217956.androidProjeto.ui.MinhasCompras"
+        android:label="Minhas Compras"
+        tools:layout="@layout/fragment_minhas_compras" />
 </navigation>

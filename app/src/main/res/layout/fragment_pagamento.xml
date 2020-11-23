@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.Pagamento">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Por favor, verifique seu endereço:"
+        android:textSize="32dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Endereço: " />
+
+        <EditText
+            android:id="@+id/endereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carregando endereço..." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cidade/UF: " />
+
+        <EditText
+            android:id="@+id/cidadeuf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carregando Cidade/UF..." />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Produtos: "
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/produtos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carregando..." />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valor total: "
+            android:textSize="32dp" />
+
+        <TextView
+            android:id="@+id/valor_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carregando..."
+            android:textSize="32dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/comprar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3DDA83"
+        android:gravity="center_horizontal"
+        android:text="FINALIZAR COMPRA"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
